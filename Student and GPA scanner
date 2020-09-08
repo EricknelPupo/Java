@@ -1,0 +1,35 @@
+package com.company;
+import javax.swing.*;
+import java.util.Scanner;
+
+        class Main {
+            public static void main(String[] args) {
+                String name;
+                boolean exp;
+                int gradeLevel;
+                double gpa;
+
+                name = JOptionPane.showInputDialog("What is the student's name? ");
+
+                //Scanner input1 = new Scanner(System.in);
+                //System.out.println("Please input student name: ");
+                // = input1.nextLine();
+
+                Scanner input2 = new Scanner(System.in);
+                System.out.println("Please input student name: ");
+                exp = input2.nextBoolean();
+
+                Scanner input3 = new Scanner(System.in);
+                System.out.println("Please input student name: ");
+                gradeLevel = input3.nextInt();
+
+                Scanner input4 = new Scanner(System.in);
+                System.out.println("Please input student name: ");
+                gpa = input4.nextDouble();
+
+                System.out.println("Name: " + name);
+                System.out.println("Experience: " + exp);
+                System.out.println("gradeLevel: " + gradeLevel);
+                System.out.println("GPA: " + gpa);
+            }
+        }
